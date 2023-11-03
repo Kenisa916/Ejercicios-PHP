@@ -29,6 +29,10 @@ switch ($num){
     case 7:
         echo "El día $num es Domingo";
         break;
+    
+    //Me faltaba el default
+    default:
+        echo "El dia introducido es incorrecto";
 }
 
 
