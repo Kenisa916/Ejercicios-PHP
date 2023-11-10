@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8"/>
+        <meta http-equiv=”Content-Type” content=”text/html; charset="UTF-8"/>
         <title>Campeones de League of Legends</title>
     </head>
     <body>
@@ -12,6 +12,7 @@
             $apellidos = $_POST['apellidos'];
             $correo = $_POST['correo'];
             $ciudad = $_POST['ciudad'];
+            $favposi = $_POST['favposi'];
             $campeon = $_POST['campeon'];
             $otrocampeon = $_POST['otrocampeon'];
 
@@ -22,6 +23,7 @@
             print ("<li> Apellidos del usuario: $apellidos \n");
             print ("<li> Correo del usuario: $correo \n");
             print ("<li> Ciudad del usuario: $ciudad \n");
+            print ("<li> Posición favorita: $favposi \n");
             print ("<li> Campeón favorito: $campeon \n");
             print ("<li> Otro campeón: $otrocampeon \n");
 
