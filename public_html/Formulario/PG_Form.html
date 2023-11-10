@@ -1,0 +1,53 @@
+<html>
+    <head>        
+    </head>
+
+    <body>
+        <h1>League of Legends</h1>
+        <h2>Encuesta sobre campeones</h2>
+        <p>Cuando aparece un * al lado de un campo es obligatorio introducir un valor</p>
+        <form action="procesar_campeon.php" method="post">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label>Nombre *</label>
+                <input type="text" name="nombre"/>
+                <label>Apellidos *</label>
+                <input type="text" name="apellidos"/>
+                <br>
+                <label>Correo electrónico * </label>
+                <input type="email" name="correo"/>
+                <label>Ciudad</label>
+                <input type="text" name="ciudad"/>
+            </fieldset>
+            <fieldset>
+                <legend>Selecciona tu campeon favorito</legend>
+                <label>Campeones</label>
+                <select name="campeon">
+                    <option value="Seleccion">Selecciona un campeon</option>
+                    <option value="Nocturne">Nocturne</option>
+                    <option value="Kayn">Kayn</option>
+                    <option value="Rammus">Rammus</option>
+                    <option value="Shaco">shaco</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>¿Que otros campeones estarias dispuesto a utilizar?</legend>
+                <input type="radio" id="nidalee" name="otrocampeon" value="Nidalee">
+                <label for="nidalee">Nidalee</label>
+
+                <input type="radio" id="maestroYi" name="otrocampeon" value="Maestro Yi">
+                <label for="maestroYi">Maestro Yi</label>
+
+                <input type="radio" id="reksai" name="otrocampeon" value="Reksai">
+                <label for="reksai">Reksai</label>
+            </fieldset>
+            <br>
+            <input type="submit" value="Escribir Datos"/>
+        </form>
+
+
+    </body>
+
+
+
+</html>
