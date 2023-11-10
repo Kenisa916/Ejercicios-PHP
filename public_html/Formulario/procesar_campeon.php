@@ -10,7 +10,8 @@
             print("<h1>El formulario de PHP. Resultados del formulario</h1>");
             $nombre = $_POST['nombre'];
             $apellidos = $_POST['apellidos'];
-
+            $correo = $_POST['correo'];
+            $ciudad = $_POST['ciudad'];
             $campeon = $_POST['campeon'];
             $otrocampeon = $_POST['otrocampeon'];
 
@@ -19,6 +20,8 @@
             print ("<ul>\n");
             print ("<li> Nombre del usuario: $nombre \n");
             print ("<li> Apellidos del usuario: $apellidos \n");
+            print ("<li> Correo del usuario: $correo \n");
+            print ("<li> Ciudad del usuario: $ciudad \n");
             print ("<li> Campeón favorito: $campeon \n");
             print ("<li> Otro campeón: $otrocampeon \n");
 
