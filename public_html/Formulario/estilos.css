@@ -1,3 +1,17 @@
-h1 {
-    background-color: lightblue;
+legend {
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold ;
+}
+
+fieldset{
+
+}
+
+h1{
+    background-color: aliceblue;
+    
+}
+
+body{
+    background-color: lightgreen;
 }
