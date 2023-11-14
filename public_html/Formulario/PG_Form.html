@@ -9,7 +9,7 @@
         <h2>Encuesta sobre campeones</h2>
         <p>Cuando aparece un * al lado de un campo es obligatorio introducir un valor</p>
         <form action="procesar_campeon.php" method="post">
-            <fieldset>
+            <fieldset class="f1">
                 <legend>Datos Personales</legend>
                 <label>Nombre *</label>
                 <input type="text" name="nombre"/>
@@ -21,7 +21,7 @@
                 <label>Ciudad</label>
                 <input type="text" name="ciudad"/>
             </fieldset>
-            <fieldset>
+            <fieldset class="f2">
                 <legend>Posición favorita</legend>
                 <label>Posición</label>
                 <select name="favposi">
@@ -33,7 +33,7 @@
                     <option value="Support">Support</option>
                 </select>
             </fieldset>
-            <fieldset>
+            <fieldset class="f3">
                 <legend>Selecciona tu campeon favorito</legend>
                 <label>Campeones</label>
                 <select name="campeon">
@@ -44,7 +44,7 @@
                     <option value="Shaco">shaco</option>
                 </select>
             </fieldset>
-            <fieldset>
+            <fieldset class="f3">
                 <legend>¿Que otros campeones estarias dispuesto a utilizar?</legend>
                 <input type="radio" id="nidalee" name="otrocampeon" value="Nidalee">
                 <label for="nidalee">Nidalee</label>
@@ -56,7 +56,9 @@
                 <label for="reksai">Reksai</label>
             </fieldset>
             <br>
-            <input type="submit" value="Escribir Datos"/>
+            <div class="centro">
+                <input type="submit" value="Escribir Datos" class="boton"/>
+            </div>
         </form>
 
 

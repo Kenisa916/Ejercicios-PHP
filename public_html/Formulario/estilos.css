@@ -5,16 +5,52 @@ legend {
 
 fieldset{
 
-    padding: 110px;
-
+    padding: 20px;
+    margin-right: 35%;
+    border-radius: 5px;
 }
 
-h1{
-    background-color: wheat;
-    padding: 100px;
+.f1{
+    background-color: lightcyan;
     
 }
 
+.f2{
+    background-color: rgb(255, 176, 176);
+}
+
+.f3{
+    background-color: rgb(255, 193, 168);
+}
+
+h1 {
+    background-color: rgb(255, 247, 140);
+    padding: 50px;
+    text-align: center;
+    font-size: 70px;
+    border: 3px solid black;
+    
+}
+
+h2{
+    font-size: 30px;
+}
+
 body{
-    background-color: lightgreen;
+    background-color: rgb(176, 255, 176);
+    margin:0px;
+}
+
+.boton{
+    font-size: 20px;
+    width: 170px;
+    height: 70px;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+
+}
+
+.centro{
+    text-align: center;
 }
