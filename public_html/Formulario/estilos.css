@@ -28,7 +28,8 @@ h1 {
     padding: 50px;
     text-align: center;
     font-size: 70px;
-    border: 3px solid black;
+    border: 10px solid black;
+   
     
 }
 
@@ -39,6 +40,7 @@ h2{
 body{
     background-color: rgb(176, 255, 176);
     margin:0px;
+    
 }
 
 .boton{
@@ -48,9 +50,13 @@ body{
     background-color: blue;
     color: white;
     border-radius: 30px;
+    margin-left:25% ;
+    
 
 }
 
-.centro{
-    text-align: center;
+
+
+.mover{
+    margin-left:10%;
 }
