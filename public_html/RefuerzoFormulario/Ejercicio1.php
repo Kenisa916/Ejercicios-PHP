@@ -17,13 +17,13 @@
             //Impresion de los datos recogidos
             print ("<p>Formulario enviado correctamente</p>\n");
             print ("Gracias por rellenar el formulario, $nombre, tu correo es $correo\n");
-            print ("Datos introducidos:\n")
-            print ("Nombre: $nombre")
-            print ("Apellidos: $apellidos")
-            print ("Ciudad: $ciudad")
-            print ("Correo: $correo")
-            print ("Estudios: $estudios")
-            print ("Hobbies: $hobbies")
+            print ("Datos introducidos:\n");
+            print ("Nombre: $nombre");
+            print ("Apellidos: $apellidos");
+            print ("Ciudad: $ciudad");
+            print ("Correo: $correo");
+            print ("Estudios: $estudios");
+            print ("Hobbies: $hobbies");
 
         ?>
     </body>
