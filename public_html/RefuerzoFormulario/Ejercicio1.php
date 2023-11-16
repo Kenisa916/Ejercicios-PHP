@@ -18,7 +18,7 @@
             print ("<p>Formulario enviado correctamente</p>\n");
             print ("<p>Gracias por rellenar el formulario, $nombre, tu correo es $correo</p>\n");
             print ("Datos introducidos:");
-            print ("<ul>\n")
+            print ("<ul>\n");
             print ("<li> Nombre: $nombre");
             print ("<li> Apellidos: $apellidos");
             print ("<li> Ciudad: $ciudad");
