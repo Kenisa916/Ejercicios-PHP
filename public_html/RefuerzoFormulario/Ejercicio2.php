@@ -10,7 +10,7 @@
             $num1 = $_POST['num1'];
             $num2 = $_POST['num2'];
             $operacion = $_POST['operacion'];
-            $resultado = $num1 $operacion $num2
+            $resultado = $num1 $operacion $num2;
 
             print ("$resultado");
 
