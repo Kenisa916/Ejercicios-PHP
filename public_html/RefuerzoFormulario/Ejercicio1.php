@@ -12,7 +12,7 @@
             $apellidos = $_POST['apellidos'];
             $correo = $_POST['correo'];
             $ciudad = $_POST['ciudad'];
-            $estudios = $_POST['favposi'];
+            $estudios = $_POST['estudios'];
             $hobbies = $_POST['campeon'];
 
             //Impresion de los datos recogidos
