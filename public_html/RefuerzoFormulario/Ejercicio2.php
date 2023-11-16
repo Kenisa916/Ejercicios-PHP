@@ -12,7 +12,7 @@
             $operacion = $_POST['operacion'];
             
             switch (operacion){
-                case +:
+                case "+":
                     $resultado=$num1+$num2;
                     print ("$num1 + $num2 = $resultado");
             }
