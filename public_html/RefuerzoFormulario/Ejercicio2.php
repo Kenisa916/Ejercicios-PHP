@@ -10,9 +10,12 @@
             $num1 = $_POST['num1'];
             $num2 = $_POST['num2'];
             $operacion = $_POST['operacion'];
-            $resultado = $num1 $operacion $num2;
-
-            print ("$resultado");
+            
+            switch (operacion){
+                case +:
+                    $resultado=$num1+$num2;
+                    print ("$num1 + $num2 = $resultado");
+            }
 
         ?>
     </body>
