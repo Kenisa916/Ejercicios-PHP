@@ -13,7 +13,7 @@
             $correo = $_POST['correo'];
             $ciudad = $_POST['ciudad'];
             $estudios = $_POST['estudios'];
-            $hobbies = $_POST['campeon'];
+            $hobbies = $_POST['hobbies'];
 
             //Impresion de los datos recogidos
             print ("<p>Formulario enviado correctamente</p>\n");
