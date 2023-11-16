@@ -15,6 +15,19 @@
                 case "+":
                     $resultado=$num1+$num2;
                     print ("$num1 + $num2 = $resultado");
+                    
+                case "-":
+                    $resultado=$num1-$num2;
+                    print ("$num1 - $num2 = $resultado");
+
+                case "*":
+                    $resultado=$num1*$num2;
+                    print ("$num1 x $num2 = $resultado");
+
+                case "/":
+                    $resultado=$num1/$num2;
+                    print ("$num1 / $num2 = $resultado");
+                               
             }
 
         ?>
