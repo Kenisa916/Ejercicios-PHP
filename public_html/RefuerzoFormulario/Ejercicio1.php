@@ -15,15 +15,18 @@
             $hobbies = $_POST['hobbies'];
 
             //Impresion de los datos recogidos
-            print ("<p>Formulario enviado correctamente\n");
-            print ("Gracias por rellenar el formulario, $nombre, tu correo es $correo\n");
-            print ("Datos introducidos:\n");
-            print ("Nombre: $nombre");
-            print ("Apellidos: $apellidos");
-            print ("Ciudad: $ciudad");
-            print ("Correo: $correo");
-            print ("Estudios: $estudios");
-            print ("Hobbies: $hobbies"</p>);
+            print ("<p>Formulario enviado correctamente</p>\n");
+            print ("<p>Gracias por rellenar el formulario, $nombre, tu correo es $correo</p>\n");
+            print ("Datos introducidos:");
+            print ("<ul>\n")
+            print ("<li> Nombre: $nombre");
+            print ("<li> Apellidos: $apellidos");
+            print ("<li> Ciudad: $ciudad");
+            print ("<li> Correo: $correo");
+            print ("<li> Estudios: $estudios");
+            print ("<li> Hobbies: $hobbies");
+            print ("</ul>\n");
+
 
         ?>
     </body>
